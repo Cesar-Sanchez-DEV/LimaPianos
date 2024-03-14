@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.71 19.42">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 2.07px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #d1c676;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2 {
+        stroke-width: 2.13px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g>
+      <polygon class="cls-2" points="15.65 1.06 15.65 18.36 1.06 9.71 15.65 1.06"/>
+      <line class="cls-1" x1="1.06" y1="1.06" x2="1.06" y2="18.36"/>
+    </g>
+  </g>
+</svg>

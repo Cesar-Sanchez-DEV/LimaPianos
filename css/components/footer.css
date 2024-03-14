@@ -1,0 +1,126 @@
+
+
+/* Footer */
+.footer a, .footer p, .footer li{
+    font-weight: 100;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+}
+.infoEmpresa .lgFooter img{
+    width: 230px;
+    margin-bottom: 20px;
+}
+.infoEmpresa .textInfo p{
+    width: 250px;
+    margin-bottom: 20px;
+}
+.infoEmpresa .redesFooter h2{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.infoEmpresa .redesFooter ul li{
+    margin-bottom: 10px;
+}
+.infoEmpresa .redesFooter ul li a img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.infoEmpresa .redesFooter ul li a{
+    display: flex;
+    align-items: center;
+}
+.servicios h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.services{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+}
+.services ul li{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0px;
+}
+.services ul li i{
+    margin-right: 5px;
+    margin-top: 10px;
+    font-size: 5px;
+    color: var(--colorPrincipal);
+}
+.contactanos {
+    display: flex;
+    flex-direction: column;
+}
+.contactanos .linea{
+    border: 1px solid var(--colorPrincipal);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contactanos h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contactanos .telefono {
+    display: flex;
+    align-items: center;
+}
+.contactanos .telefono img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.contactanos .telefono .telefonoText{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.contactanos .telefono .telefonoText h3{
+    font-weight: 500;
+}
+.contactanos .email {
+    display: flex;
+    align-items: center;
+}
+.contactanos .email img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.contactanos .email .emailText{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.contactanos .email .emailText h3{
+    font-weight: 500;
+}
+.contactanos .atencion {
+    display: flex;
+    align-items: center;
+}
+.contactanos .atencion img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.contactanos .atencion .atencionText{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.contactanos .atencion .atencionText h3{
+    font-weight: 500;
+}
+.contactanos .atencion .atencionText p{
+    line-height: 1;
+    margin-bottom: 10px;
+}

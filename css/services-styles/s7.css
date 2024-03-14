@@ -1,0 +1,78 @@
+.rvcPianos{
+    background-color: var(--backgroundFondo2);
+}
+.info-rvc-pianos{
+    display: flex;
+    justify-content: space-between;
+}
+.img-rvc-pianos{
+    width: 50%;
+}
+
+.text-rvc-pianos{
+    width: 50%;
+    margin: auto 0px auto 0px;
+}
+.text-rvc-pianos h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--colorPrincipal);
+    letter-spacing: 1px;
+}
+.text-rvc-pianos h3{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.text-rvc-pianos h4{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.text-rvc-pianos p{
+    color: var(--colorLetra);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+}
+.rvcPianos2{
+    background-color: var(--backgroundFondo2);
+}
+.info-rvc-pianos2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rvcPianos2{
+    background-color: var(--backgroundFondo1);
+}
+.img-rvc-pianos2 img{
+    justify-content: right;
+}
+.text-rvc-pianos2{
+    width: 50%;
+    margin: auto 0px auto 0px;
+}
+.text-rvc-pianos2 h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--colorPrincipal);
+    letter-spacing: 1px;
+}
+.text-rvc-pianos2 h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.text-rvc-pianos2 p{
+    color: var(--colorLetra);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+}

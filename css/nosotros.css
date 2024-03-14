@@ -1,0 +1,77 @@
+.nosotros-1, .nosotros-3{
+    background-color: var(--backgroundFondo2);
+}
+.historia1, .historia2, .historia3{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.imghis{
+    width: 50%;
+    position: relative;
+}
+.imghis img{
+    width: 85%;
+    height: 90%;
+}
+.marcoSvg:last-child{
+    position: absolute;
+    width: auto;
+    height: 90%;
+    overflow: visible;
+    right: 0;
+    bottom: 0;
+}
+.texthis{
+    width: 50%;
+}
+.texthis h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--colorPrincipal);
+    letter-spacing: 1px;
+}
+.texthis h3{
+    margin-bottom: 20px;    
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.texthis p{
+    color: var(--colorLetra);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+}
+.imghis2{
+    width: 50%;
+    position: relative;
+}
+.imghis2 img{
+    height: 85%;
+}
+.texthis2{
+    width: 50%;
+    margin: auto 0px auto 0px;
+    margin-right: 150px;
+}
+
+.texthis2 p{
+    color: var(--colorLetra);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+}
+.texthis3{
+    width: 50%;
+    margin: auto 0px auto 0px;
+}
+
+.texthis3 p{
+    color: var(--colorLetra);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+}

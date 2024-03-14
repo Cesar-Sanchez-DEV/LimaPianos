@@ -1,0 +1,39 @@
+.rnPianos{
+    background-color: var(--backgroundFondo2);
+}
+.info-rn-pianos{
+    display: flex;
+    justify-content: space-between;
+}
+.img-rn-pianos{
+    width: 50%;
+}
+
+.text-rn-pianos{
+    width: 50%;
+    margin: auto 0px auto 0px;
+}
+.text-rn-pianos h2{
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--colorPrincipal);
+    letter-spacing: 1px;
+}
+.text-rn-pianos h3{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.text-rn-pianos h4{
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--colorLetra);
+}
+.text-rn-pianos p{
+    color: var(--colorLetra);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2;
+}

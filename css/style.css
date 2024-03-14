@@ -1,12 +1,47 @@
 /*Estilos generales para todas las páginas*/
-:root{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
+:root{
+    --colorPrincipal: #d0bb78;
+    --colorLetra: #d0d1d1;
+    --backgroundFondo1: #0b1016;
+    --backgroundFondo2: #1b1e26;
 }
 *{
     margin: 0;
     padding: 0;
     list-style: none;
-    transition: .2s;
+    border: none;
+    outline: none;
+    font-family: "Poppins", sans-serif;
     box-sizing: border-box;
+    transition: .2s;
     text-decoration: none;
+    color: #fff;
+}
+img{
+    object-fit: cover;
+}
+body{
+    background-color: #0b1016;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+section{
+    padding: 50px 0;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid var(--colorPrincipal);
+    border-radius: 4px;
+    padding: 3px 25px;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+}
+.iconLeft, .iconRight{
+    cursor: pointer;
 }

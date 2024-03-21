@@ -1,0 +1,73 @@
+.bg2{
+    background-color: var(--backgroundFondo2);
+}
+.bg1{
+    background-color: var(--backgroundFondo1);
+}
+.secService{
+    padding: 63px 0;
+}
+main section article{
+    display: flex;
+    justify-content: space-between;
+}
+.infoService{
+    width: 600px;
+    margin: auto 0 auto 0;
+}
+.infoService *{
+    font-size: 20px;
+}
+.infoService h3{
+    color: var(--colorPrincipal);
+    font-weight: 400;
+}
+.infoService h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.infoService p:first-of-type{
+    margin-top: 50px;
+}
+.infoService p:last-of-type{
+    margin-top: 50px;
+}
+
+.marco {
+    width: 537px;
+    height: 649px;
+    display: inline-block;
+    position: relative;
+}
+.marco::before {
+    content: '';
+    position: absolute;
+    top: 56px;
+    left: 62px;
+    width: calc(100% - 62px);
+    height: calc(100% - 56px);
+    border: 10px solid var(--colorPrincipal);
+    z-index: 1;
+    box-sizing: border-box;
+}
+.marco img{
+    object-fit: cover;
+    width: calc(100% - 72px);
+    height: calc(100% - 66px);
+}
+
+/* Servicio 2 */
+.marcoS2 {
+    width: 588px;
+    height: 617px;
+}
+.infoS2{
+    width: 520px;
+}
+.infoS2 h5{
+    margin-top: 15px;
+    font-weight: 500;
+}
+.txtResalt + p:last-of-type{
+    margin-top: 15px;
+}

@@ -18,15 +18,16 @@
     transition: .2s;
     text-decoration: none;
     color: #fff;
+    font-weight: 100;
 }
 img{
     object-fit: cover;
 }
 body{
-    background-color: #0b1016;
+    background-color: var(--backgroundFondo1);
 }
 .container{
-    max-width: 1280px;
+    max-width: 1200px;
     margin: auto;
 }
 section{
@@ -44,4 +45,23 @@ section{
 }
 .iconLeft, .iconRight{
     cursor: pointer;
+}
+.logoImg{
+    width: 277px;
+    height: 50px;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 20px;
+} 
+p {
+    font-size: 25px;
 }

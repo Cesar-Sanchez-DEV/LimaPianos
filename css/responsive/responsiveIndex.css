@@ -1,0 +1,313 @@
+
+@media screen and (max-width: 1280px) {
+    .container{
+        margin: 0 auto;
+        max-width:  1100px;
+        width: 100%;
+    }
+    .imgLogos img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .container{
+        max-width: 85%;
+    }
+    header .txtBanner {
+        width: 85%;
+        margin: auto;
+    }
+    header .txtBanner h1{
+        font-size: 75px;
+    }
+    .infonosotros{
+        width: 500px;
+        padding: 40px 0px;
+    }
+    .AboutUs .infonosotros .big{
+        font-size: 30px;
+    }
+    .AboutUs .infonosotros .little{
+        font-size: 20px;
+    }
+    .borde-svg {
+        position: absolute;
+        top: 45px;
+        left: 32px;
+        overflow: visible;
+        width: 100%;
+        height: 100%;
+    }
+    .imgLogos img{
+        width: 125px;
+        height: auto;   
+    }
+    .services{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .container{
+        max-width: 85%;
+    }
+    header .txtBanner {
+        width: 85%;
+        margin: auto;
+    }
+    header .txtBanner h1{
+        font-size: 75px;
+    }
+    .infonosotros{
+        width: 500px;
+        padding: 40px 0px;
+    }
+    .AboutUs{
+        padding: 0;
+    }
+    .AboutUs .infonosotros .big{
+        font-size: 30px;
+    }
+    .AboutUs .infonosotros .little{
+        font-size: 20px;
+    }
+    .borde-svg {
+        position: absolute;
+        top: 45px;
+        left: 32px;
+        overflow: visible;
+        width: 90%;
+        height: 90%;
+    }
+    .service-title h2{
+        font-size: 30px;
+    }
+    .service-slider .iconLeft{
+        display: none;
+    }
+    .service-slider .iconRight{
+        display: none;
+    }
+    .service-slider .sld{
+        width: 100%;
+        height: 100%;
+        padding: 0 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr repeat(3, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        transition: .6s;
+    }
+    .logotiposSlider .iconLeft {
+        left: 45%;
+        bottom: 0;
+        display: none;
+    }
+    
+    .logotiposSlider .iconRight {
+        right: 45%;
+        bottom: 0;
+        display: none;
+    }
+    .imgLogos img{
+        width: 150px;
+    }
+    .imgLogos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 75px;
+        padding: 20px 0px;
+        align-items: center;
+    }
+    .textContactenos p:last-of-type{
+        width: 100%;
+        font-size: 16px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .infoEmpresa .lgFooter img{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    .infoEmpresa .textInfo p{
+        width: 400px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 85%;
+    }
+    header .logo{
+        width: 100%;
+        height: 100px;
+
+    }
+    header .txtBanner {
+        width: 85%;
+        margin: auto;
+    }
+    header .txtBanner h1{
+        font-size: 65px;
+    }
+    .AboutUs{
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 50px 0;
+    }
+    .infonosotros{
+        width: 100%;
+        padding: 0 0 40px 0;
+    }
+    .infonosotros h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .infonosotros .tittleabout{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .AboutUs .infonosotros .big{
+        font-size: 30px;
+        width: 100%;
+    }
+    .AboutUs .infonosotros .big br{
+        display: none;
+    }
+    .AboutUs .infonosotros .little{
+        font-size: 20px;
+        width: 100%;
+    }
+    .AboutUs .infonosotros .little br{
+        display: none;
+    }
+    .imgabout{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .borde-svg {
+        position: absolute;
+        top: 45px;
+        left: 32px;
+        overflow: visible;
+        width: 100%;
+        height: 100%;
+    }
+    .service-title h2{
+        font-size: 30px;
+    }
+    .service-slider .iconLeft{
+        display: none;
+    }
+    .service-slider .iconRight{
+        display: none;
+    }
+    .service-slider .sld{
+        width: 100%;
+        height: 100%;
+        padding: 0 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 2fr repeat(3, 1fr);
+        grid-column-gap: 25px;
+        grid-row-gap: 25px;
+        transition: .6s;
+    }
+    .logotiposSlider .iconLeft {
+        left: 45%;
+        bottom: 0;
+        display: none;
+    }
+    
+    .logotiposSlider .iconRight {
+        right: 45%;
+        bottom: 0;
+        display: none;
+    }
+    .imgLogos img{
+        width: 120px;
+    }
+    .imgLogos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 45px;
+        padding: 20px 0px;
+        align-items: center;
+    }
+    .textContactenos p:last-of-type{
+        width: 100%;
+        font-size: 16px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+    }
+    .infoEmpresa .lgFooter img{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+    .infoEmpresa .textInfo p{
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .servicios{
+        margin-top: 50px;
+        
+    }
+    .services ul li br{
+        display: none;
+    }
+    .contactanos{
+        margin-top: 50px;
+    }
+    .contactanos .linea{
+        border: 1px solid var(--colorPrincipal);
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+
+}
+@media screen and (max-width: 440px){
+
+}
+@media (min-width: 361px) and (max-width: 439px){
+
+}

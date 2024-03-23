@@ -47,7 +47,8 @@
 }
 
 .textContactenos p:last-of-type{
-    width: 75%;   
+    width: 75%;
+    font-size: 16px;
 }
 
 .form{

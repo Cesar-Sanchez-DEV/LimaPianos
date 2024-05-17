@@ -20,18 +20,18 @@ const newFooter = `
         <h2>Servicios</h2>
         <div class="services">
             <ul>
-                <li><a href="/services/service1.html"><i class="fa-solid fa-circle"></i>Servicio de <br> Arquitectura</a></li>
-                <li><a href="/services/service2.html"><i class="fa-solid fa-circle"></i>Ampliaciones y <br> remodelación</a></li>
-                <li><a href="/services/service3.html"><i class="fa-solid fa-circle"></i>Diseño de interiores</a></li>
-                <li><a href="/services/service4.html"><i class="fa-solid fa-circle"></i>Acabados y <br> revestimientos de <br> fachadas</a></li>
-                <li><a href="/services/service5.html"><i class="fa-solid fa-circle"></i>Diseño 3D y <br> visualizaciones</a></li>
+                <li><a href="services/service1.html"><i class="fa-solid fa-circle"></i>Servicio de <br> Arquitectura</a></li>
+                <li><a href="services/service2.html"><i class="fa-solid fa-circle"></i>Ampliaciones y <br> remodelación</a></li>
+                <li><a href="services/service3.html"><i class="fa-solid fa-circle"></i>Diseño de interiores</a></li>
+                <li><a href="services/service4.html"><i class="fa-solid fa-circle"></i>Acabados y <br> revestimientos de <br> fachadas</a></li>
+                <li><a href="services/service5.html"><i class="fa-solid fa-circle"></i>Diseño 3D y <br> visualizaciones</a></li>
             </ul>
             <ul>
-                <li><a href="/services/service6.html"><i class="fa-solid fa-circle"></i>Servicio de Ingeniería</a></li>
-                <li><a href="/services/service7.html"><i class="fa-solid fa-circle"></i>Obras Civiles</a></li>
-                <li><a href="/services/service8.html"><i class="fa-solid fa-circle"></i>Topografía</a></li>
-                <li><a href="/services/service9.html"><i class="fa-solid fa-circle"></i>Estructura metálicas</a></li>
-                <li><a href="/services/service10.html"><i class="fa-solid fa-circle"></i>Instalación de <br> blogestores</a></li>
+                <li><a href="services/service6.html"><i class="fa-solid fa-circle"></i>Servicio de Ingeniería</a></li>
+                <li><a href="services/service7.html"><i class="fa-solid fa-circle"></i>Obras Civiles</a></li>
+                <li><a href="services/service8.html"><i class="fa-solid fa-circle"></i>Topografía</a></li>
+                <li><a href="services/service9.html"><i class="fa-solid fa-circle"></i>Estructura metálicas</a></li>
+                <li><a href="services/service10.html"><i class="fa-solid fa-circle"></i>Instalación de <br> blogestores</a></li>
             </ul>
         </div>
     </section>
